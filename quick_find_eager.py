@@ -3,7 +3,7 @@
 
 # ** Peformance
 # 1. is_connected: takes constant time - O(1)
-# 2. union: takes quadratic time - O(N^2)
+# 2. union: takes quadratic time - O(N)
 
 class QuickFindUF:
   def __init__(self, arr, size):
