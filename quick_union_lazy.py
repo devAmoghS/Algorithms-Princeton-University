@@ -2,8 +2,8 @@
 # Problem: Dynamic Connectivity
 
 # ** Peformance
-# 1. is_connected: takes constant time - O(N)
-# 2. union: takes quadratic time - O(N)
+# 1. is_connected: takes linear time - O(N)
+# 2. union: takes linear time - O(N)
 
 class QuickUnionUF:
   def __init__(self, arr, size):
